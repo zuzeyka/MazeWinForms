@@ -18,12 +18,12 @@ namespace Maze
         public Bitmap[]
             images =
             {
-                new Bitmap(@"C:\Users\stepa\OneDrive\MyProjects\C#\Maze\pics\hall.png"),
-                new Bitmap(@"C:\Users\stepa\OneDrive\MyProjects\C#\Maze\pics\wall.png"),
-                new Bitmap(@"C:\Users\stepa\OneDrive\MyProjects\C#\Maze\pics\medal.png"),
-                new Bitmap(@"C:\Users\stepa\OneDrive\MyProjects\C#\Maze\pics\enemy.png"),
-                new Bitmap(@"C:\Users\stepa\OneDrive\MyProjects\C#\Maze\pics\heal.png"),
-                new Bitmap(@"C:\Users\stepa\OneDrive\MyProjects\C#\Maze\pics\player.png")
+                new Bitmap(@"..\..\..\pics\hall.png"),
+                new Bitmap(@"..\..\..\pics\wall.png"),
+                new Bitmap(@"..\..\..\pics\medal.png"),
+                new Bitmap(@"..\..\..\pics\enemy.png"),
+                new Bitmap(@"..\..\..\pics\heal.png"),
+                new Bitmap(@"..\..\..\pics\player.png")
             };
 
         public MazeObjectType type;

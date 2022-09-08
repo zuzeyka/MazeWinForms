@@ -36,6 +36,8 @@ namespace Maze
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+            statusStrip1.Items[0].Text = $"Healt:{maze.charapter.health_procent}";
+            statusStrip1.Items[1].Text = $"Medals:{maze.charapter.medal_count}";
             maze.CharapterMovement (e);
             if (maze.CheckWin()) Application.Exit();
         }

@@ -184,7 +184,6 @@ namespace Maze
                             );
                     break;
             }
-            parent.Text = $"Medals:{charapter.medal_count} Health:{charapter.health_procent}%";
         }
 
         internal bool CheckCharapterMovement(int x, int y)
