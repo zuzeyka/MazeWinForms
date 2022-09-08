@@ -10,6 +10,7 @@ namespace Maze
         public Form1()
         {
             InitializeComponent();
+            this.Icon = Maze.Properties.Resources.Music;
             maze = new Labirint(this, 40, 20);
             Options();
             StartGame();
